@@ -1,0 +1,142 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;  
+background-color: #f1f3f6;
+}
+
+.navbar {
+top: 0px;
+width: 100%;
+background-color: #2874f0;
+height: 56px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+position: fixed;
+z-index: 10;
+color:white;
+}
+.section{
+margin-top: 56px;
+}
+
+.logo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.explore{
+text-decoration: none;
+font-size: 11px;
+font-style: italic;
+color: white;
+}
+.explore:hover{
+    text-decoration-line: underline;
+}
+.plus{
+color: yellow;
+font-size: 11px;
+}
+
+/* searchbar */
+
+.search-bar{
+width:100%;
+max-width: 370px;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-left: 20px;
+}
+
+.search-bar-input{
+width:100%;
+height: 36px;
+font-size: 14px;
+align-items: center;
+padding: 0 16px;
+border-radius: 2px 0 0 2px;
+border: 0;
+outline: none;
+}
+
+.search-bar-button{
+margin-left: -40px;
+background-color: transparent;
+background-repeat: no-repeat;
+border: none;
+cursor: pointer;
+}
+
+/* login */
+
+.login{
+color: #2874f0;
+height: 20px;
+margin-left: 50px;
+font-weight: 500;
+text-decoration: none;
+background-color: #fff;
+cursor: pointer;
+border-radius: 2px;
+padding: 5px 40px;
+border: 1px solid #dbdbdb;
+}
+
+/* seller */
+
+.seller{
+color: white;
+font-size: 16px;
+font-weight: 500;
+margin-left: 30px;
+text-decoration: none;
+}
+/* more*/
+
+.more{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.moretxt{
+color: white;
+font-size: 16px;
+font-weight: 500;
+margin-left: 25px;
+}
+
+.svg-for-arrow{
+rotate: -90deg;
+margin-left: 7px;
+cursor: pointer;
+}
+
+.svg-for-arrow:hover{
+transform: rotate(180deg);
+}
+
+/* cart */
+
+.cart{
+margin-left: 30px;
+text-decoration: none;
+}
+
+.svg-for-cart{
+width: 16px;
+height: 16px;
+}
+
+.cart-txt{
+color: white;
+font-size: 16px;
+font-weight: 500;
+margin-left: 4px;
+}
