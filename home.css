@@ -140,3 +140,31 @@ font-size: 16px;
 font-weight: 500;
 margin-left: 4px;
 }
+
+.category-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 10px;
+}
+
+.specific-category{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    margin-left: 60px;
+}
+
+.specific-category:hover{
+    color: #2874f0;
+}
+
+.specific-category-txt{
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 4px;
+}
