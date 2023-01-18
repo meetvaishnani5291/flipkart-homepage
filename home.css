@@ -10,12 +10,12 @@ background-color: #f1f3f6;
 top: 0px;
 width: 100%;
 background-color: #2874f0;
-height: 56px;
+height: 70px;
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-position: fixed;
+position: fixed; 
 z-index: 10;
 color:white;
 }
@@ -37,6 +37,7 @@ color: white;
 }
 .explore:hover{
     text-decoration-line: underline;
+    color:white;
 }
 .plus{
 color: yellow;
@@ -77,7 +78,7 @@ cursor: pointer;
 
 .login{
 color: #2874f0;
-height: 20px;
+height: 35px;
 margin-left: 50px;
 font-weight: 500;
 text-decoration: none;
@@ -147,7 +148,7 @@ margin-left: 4px;
     justify-content: center;
     flex-wrap: wrap;
     background-color: white;
-    padding: 10px;
+    padding: 25px;
 }
 
 .specific-category{
