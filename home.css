@@ -271,9 +271,9 @@ a:hover {
 }
 
 .advertise-img {
-  width: 360px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  width:33%;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .product {
   text-decoration: none;
