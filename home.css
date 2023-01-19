@@ -369,9 +369,16 @@ a:hover {
     margin-left: 0px;
     padding: 1px 12px;
   }
-  .login,.seller,.moretxt,.cart-txt{
+  .login,.seller,.moretxt,.cart-txt,.cart{
     margin-top: 5px;
     font-size:10px;
+  }
+  .svg-for-arrow{
+    margin-top: 5px;
+  }
+  .svg-for-cart{
+    height: 10px;
+    width: 10px;
   }
   .category-section{
     margin-top: 120px;
