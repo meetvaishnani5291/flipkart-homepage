@@ -370,7 +370,8 @@ a:hover {
     padding: 1px 12px;
   }
   .login,.seller,.moretxt,.cart-txt{
-    font-size:7px;
+    margin-top: 5px;
+    font-size:10px;
   }
   .category-section{
     margin-top: 120px;
@@ -423,7 +424,7 @@ a:hover {
     width: 75px;
   }
   .product-name,.product-offer,.product-description{
-    font-size: 5px;
+    font-size: 7px;
     padding:  0px;
     margin:1px ;
   }
